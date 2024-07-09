@@ -39,10 +39,3 @@ The main script (`main.py`) indexes the Flask repository using the Greptile API,
 - **greptile_utils.py**: Utility functions for interacting with the Greptile API.
 - **main.py**: Main script to run the compliance checker.
 
-## Feedback on Greptile API
-The Greptile API provides a seamless way to fetch and analyze codebase details. The indexing and query endpoints are well-documented and easy to use.
-
-## Ideas for Future Enhancements
-- Integration with CI/CD pipelines for continuous compliance monitoring.
-- Enhanced reporting and visualization of compliance status.
-- Support for additional compliance standards.
