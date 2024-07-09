@@ -1,0 +1,11 @@
+{
+    "GDPR_001": {
+      "suggestion": "Ensure that the data is encrypted using AES-256 encryption.",
+      "example": "encrypted_data = encrypt(data, 'AES-256')"
+    },
+    "GDPR_002": {
+      "suggestion": "Anonymize personal data before logging it.",
+      "example": "log(anonymize(personal_data))"
+    }
+  }
+  

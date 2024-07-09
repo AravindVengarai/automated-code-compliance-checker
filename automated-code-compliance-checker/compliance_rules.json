@@ -1,0 +1,18 @@
+{
+    "standard": "GDPR",
+    "rules": [
+      {
+        "id": "GDPR_001",
+        "description": "Ensure personal data is encrypted",
+        "pattern": "encrypt\\((.*)\\)",
+        "severity": "High"
+      },
+      {
+        "id": "GDPR_002",
+        "description": "Anonymize personal data before logging",
+        "pattern": "log\\((.*personal_data.*)\\)",
+        "severity": "Medium"
+      }
+    ]
+  }
+  
